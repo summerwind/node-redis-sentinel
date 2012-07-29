@@ -1,0 +1,29 @@
+{
+  "name": "node-redis-sentinel",
+  "description": "Redis Sentinel client for Node.js.",
+  "author": "Moto Ishizawa <summerwind.jp@gmail.com> (http://summerwind.jp)",
+  "version": "0.0.1",
+  "keywords": [
+    "redis",
+    "sentinel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/summerwind/node-redis-failover.git"
+  },
+  "main": "lib/sentinel.js",
+  "dependencies": {
+    "redis": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec" 
+  },
+  "engines": {
+    "node": "*"
+  }
+}
