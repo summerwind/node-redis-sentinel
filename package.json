@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/summerwind/node-redis-failover.git"
+    "url": "git://github.com/summerwind/node-redis-sentinel.git"
   },
   "main": "lib/sentinel.js",
   "dependencies": {
